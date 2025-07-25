@@ -42,7 +42,7 @@ class AuthController extends Controller
     
         $user = auth()->user();
 
-        // $user->generateTwoFactorCode();
+        // $user->generateTwoFactorCode();/
         // $user->notify(new TwoFactorCode());
 
         return response()->json([
